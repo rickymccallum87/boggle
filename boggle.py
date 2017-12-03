@@ -18,5 +18,11 @@ def generateLetter():
 # Display grid
 for i in range(dimensions):
 	for j in range(dimensions):
-		print(generateLetter(), end=' ')	
+		letter = generateLetter()
+
+		# Keep spacing consistent
+		if letter == 'Qu':
+			print(letter, end='')	
+		else:
+			print(letter, end=' ')
 	print('')
