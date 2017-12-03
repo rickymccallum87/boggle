@@ -2,9 +2,6 @@
 
 import random
 
-# Initialize new board
-board = []
-
 # Define alphabet
 alphabet = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Qu', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
 
