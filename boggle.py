@@ -18,8 +18,6 @@ for i in range(dimensions):
 		letter = generateLetter()
 
 		# Keep spacing consistent
-		if letter == 'Qu':
-			print(letter, end='')	
-		else:
-			print(letter, end=' ')
+		cell = letter.ljust(3)
+		print(cell, end='')
 	print('')
