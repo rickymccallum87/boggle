@@ -14,10 +14,12 @@ def generateLetter():
 
 # Display grid
 for i in range(dimensions):
+
 	for j in range(dimensions):
 		letter = generateLetter()
 
 		# Keep spacing consistent
-		cell = letter.ljust(3)
+		cell = letter.ljust(4)
 		print(cell, end='')
-	print('')
+
+	print('\n')
