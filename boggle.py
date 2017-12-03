@@ -1,5 +1,7 @@
 # A boggle board generator
 
+import random
+
 # Initialize new board
 board = []
 
@@ -10,8 +12,8 @@ alphabet = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N'
 dimensions = int(input('Width and height? '))
 
 # Generate a letter
-def generateLetter:
-	return 'a'
+def generateLetter():
+	return alphabet[random.randint(0,25)]
 
 # Display grid
 for i in range(dimensions):
